@@ -2,6 +2,7 @@ services:
   linux:
     build:
       context: .
+    command: /bin/bash
     environment:
       - DISPLAY=:0
     volumes:
